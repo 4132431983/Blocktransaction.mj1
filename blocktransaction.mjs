@@ -46,7 +46,7 @@ export const sendTransaction = async (transaction, privateKey, providerUrl) => {
 // Example usage (only runs if this script is executed directly, not imported)
 if (import.meta.url === `file://${process.argv[1]}`) {
     const exampleTransaction = {
-        to: "", // Example address
+        to: "0x6220E08c9d63AB7bA2e566839F429eeEfe199b7e", // Example address
         value: ethers.parseEther("0.1"), // Sending 0.1 ETH
         gasLimit: 21000,
     };
